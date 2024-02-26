@@ -1,13 +1,19 @@
-package Project;
 import java.awt.BorderLayout;
 import java.awt.Button;
 import java.awt.GridLayout;
+import java.awt.TextArea;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import Project.CalcLogic;
 
 import javax.swing.*;
 
 public class master {
+    public static void onClick() {
+        int num1;
+        int num2;
+
+    } 
 
 
     public static void main(String[] args) {
@@ -111,11 +117,8 @@ public class master {
             }
         });
         Button bEqu = new Button(" = ");
-        bEqu.addActionListener(new ActionListener() {
-            public void actionPerformed(ActionEvent e) {
-                
-            }
-        });
+        //bEqu.addActionListener(onClick());
+    
         Button bMult = new Button(" X ");
         bMult.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
